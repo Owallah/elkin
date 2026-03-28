@@ -1,10 +1,10 @@
 import { ArrowUpRight } from "lucide-react";
-import cargoShip from "../../public/cargo-ship.jpg";
-import freightTruckImg from "../../public/elkin-truck.png";
-import airFreightImg from "../../public/air-freight.jpg";
-import warehouseImg from "../../public/warehouse.jpg";
-import railageImg from "../../public/railage.jpg";
-import heroImg from "../../public/hero-port.jpg";
+import cargoShip from "../../public/cargo-ship.webp";
+import freightTruckImg from "../../public/elkin-truck.webp";
+import airFreightImg from "../../public/air-freight.webp";
+import warehouseImg from "../../public/warehouse.webp";
+import railageImg from "../../public/railage.webp";
+import heroImg from "../../public/hero-port.webp";
 import ScrollReveal from "@/components/ScrollReveal";
 import Image from "next/image";
 import Link from "next/link";

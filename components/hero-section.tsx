@@ -25,7 +25,7 @@ const transitionVariants = {
       filter: "blur(0px)",
       y: 0,
       transition: {
-        type: "spring",
+        type: "spring" as const,
         bounce: 0.3,
         duration: 1.5,
       },
@@ -116,7 +116,7 @@ export default function HeroSection() {
               className="mask-b-from-35% mask-b-to-90% absolute inset-0 top-56 -z-20 lg:top-32"
             >
               <Image
-                src="/elkin_container.png"
+                src="./elkin_container.webp"
                 alt="background"
                 className="hidden size-full dark:block"
                 width="3276"
@@ -124,7 +124,7 @@ export default function HeroSection() {
               />
 
               <Image
-                src="/hero-port.jpg"
+                src="./hero-port.webp"
                 alt="background"
                 className="size-full dark:block"
                 width="3276"
@@ -193,7 +193,7 @@ export default function HeroSection() {
                         },
                       },
                     },
-                    ...transitionVariants,
+                    item: transitionVariants.item,
                   }}
                   className="mt-12 flex flex-col items-center justify-center gap-2 md:flex-row"
                 >
@@ -239,15 +239,8 @@ export default function HeroSection() {
               <div className="mask-b-from-55% relative -mr-56 mt-8 overflow-hidden px-2 sm:mr-0 sm:mt-12 md:mt-20">
                 <div className="inset-shadow-2xs ring-background dark:inset-shadow-white/20 bg-background relative mx-auto max-w-6xl overflow-hidden rounded-2xl border p-4 shadow-lg shadow-zinc-950/15 ring-1">
                   <Image
-                    className="bg-background aspect-15/8 relative hidden rounded-2xl dark:block"
-                    src="/container3.jpg"
-                    alt="app screen"
-                    width="2700"
-                    height="1440"
-                  />
-                  <Image
-                    className="z-2 border-border/25 aspect-15/8 relative rounded-2xl border dark:hidden"
-                    src="/container3.jpg"
+                    className="bg-background aspect-15/8 relative rounded-2xl"
+                    src="./container3.webp"
                     alt="app screen"
                     width="2700"
                     height="1440"
@@ -314,7 +307,7 @@ export default function HeroSection() {
                     </div>
                   </div>
                   <Image
-                    src="/cargo-ship.jpg"
+                    src="./cargo-ship.webp"
                     alt="Cargo Ship"
                     loading="lazy"
                     width={800}
@@ -322,7 +315,7 @@ export default function HeroSection() {
                     className="rounded-2xl object-cover w-full h-full min-h-[200px]"
                   />
                   <Image
-                    src="/elkin-truck.png"
+                    src="./elkin-truck.webp"
                     alt="Road Freight"
                     loading="lazy"
                     width={800}
@@ -330,7 +323,7 @@ export default function HeroSection() {
                     className="rounded-2xl object-cover w-full h-full min-h-[200px]"
                   />
                   <Image
-                    src="/port-operations.jpg"
+                    src="./port-operations.webp"
                     alt="Port Operations"
                     loading="lazy"
                     width={800}

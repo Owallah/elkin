@@ -1,8 +1,8 @@
 'use client'
 
 import ScrollReveal from "../../components/ScrollReveal";
-import aerialPort from "../../public/aerial-port.jpg";
-import warehouse from "../../public/warehouse.jpg";
+import aerialPort from "../../public/aerial-port.webp";
+import warehouse from "../../public/warehouse.webp";
 import Image from "next/image";
 
 const About = () => (

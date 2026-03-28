@@ -1,12 +1,12 @@
 'use client'
 
-import heroPort from "../../public/hero-port.jpg";
-import cargoShip from "../../public/cargo-ship.jpg";
-import trucks from "../../public/elkin-trucks.png";
-import warehouse from "../../public/warehouse.jpg";
+import heroPort from "../../public/hero-port.webp";
+import cargoShip from "../../public/cargo-ship.webp";
+import trucks from "../../public/elkin-trucks.webp";
+import warehouse from "../../public/warehouse.webp";
 import containers from "../../public/image7.webp";
-import portOps from "../../public/port-operations.jpg";
-import aerialPort from "../../public/aerial-port.jpg";
+import portOps from "../../public/port-operations.webp";
+import aerialPort from "../../public/aerial-port.webp";
 import image6 from "../../public/image10.webp"
 import Image from "next/image";
 import ScrollReveal from "../../components/ScrollReveal";
