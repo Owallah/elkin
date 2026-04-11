@@ -67,7 +67,7 @@ const services = [
 ];
 
 const stats = [
-  { value: "7+", label: "Years of Experience" },
+  { value: "15+", label: "Years of Experience" },
   { value: "200+", label: "Shipments Annually" },
   { value: "7", label: "Countries Served" },
   { value: "99.4%", label: "On-Time Delivery" },

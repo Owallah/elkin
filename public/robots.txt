@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://elkingroup.co.ke/sitemap.xml

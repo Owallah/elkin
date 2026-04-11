@@ -44,25 +44,7 @@ const services = [
 
 const Services = () => (
   <div className="pt-16">
-    {/* Hero */}
-    {/* <section className="relative py-28 lg:py-36 overflow-hidden">
-      <div className="absolute inset-0">
-        <Image src={heroImg} alt="Logistics operations" className="w-full h-full object-cover" width={1920} height={1080} />
-        <div className="absolute inset-0 bg-primary/85" />
-      </div>
-      <div className="container mx-auto px-4 lg:px-8 relative z-10 text-center">
-        <ScrollReveal>
-          <span className="text-accent text-sm font-semibold uppercase tracking-wider">Our Services</span>
-          <h1 className="text-4xl md:text-6xl font-bold text-primary-foreground mt-3 mb-6">
-            End-to-End Logistics Solutions
-          </h1>
-          <p className="text-primary-foreground/80 max-w-2xl mx-auto text-lg">
-            Explore our comprehensive range of transport, freight, and logistics services tailored for businesses of all sizes.
-          </p>
-        </ScrollReveal>
-      </div>
-    </section> */}
-
+    <h1 className="text-3xl font-bold text-center mt-12">These are the services we offer</h1>
     {/* Services Grid */}
     <section className="py-20 lg:py-28 bg-background">
       <div className="container mx-auto px-4 lg:px-8">
