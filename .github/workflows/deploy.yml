@@ -42,5 +42,5 @@ jobs:
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
           local-dir: out/
-          create-remote-dir: true     # This creates directories if they don't exist
-          dangerous-clean-slate: false  # Set to true if you want to clean remote directory first
+          server-dir: /
+          dangerous-clean-slate: false
